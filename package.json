@@ -1,0 +1,25 @@
+{
+  "name": "dircontent",
+  "version": "1.0.0",
+  "description": "zapisuje zawartosc katalogu",
+  "main": "index.js",
+  "scripts": {
+    "test": "czytam zawartosc katalogu",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "DirContent"
+  },
+  "keywords": [
+    "katalog",
+    "pliki",
+    "zawartosc"
+  ],
+  "author": "Malgorzata Lesniak",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "stat-mode": "^0.3.0"
+  }
+}
